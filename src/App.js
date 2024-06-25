@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { createRoot } from "react-dom/client";
 import Header from "./components/Header";
 import "./App.css";
 import TaskList from "./components/TaskList";
@@ -65,6 +64,4 @@ function App() {
   );
 }
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(<App />);
+export default App;
